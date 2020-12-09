@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>Tereshkovich.Study.PaDC.ThirdAssigment</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded\Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded.csproj" />
+    </ItemGroup>
+
+</Project>
