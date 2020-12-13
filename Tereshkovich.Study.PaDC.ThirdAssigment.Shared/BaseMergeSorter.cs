@@ -7,7 +7,7 @@ namespace Tereshkovich.Study.PaDC.ThirdAssigment.Shared
     {
         public abstract ICollection<int> Sort(ICollection<int> collection);
         
-        protected static (ICollection<int> Left, ICollection<int> Right) GetParts(ICollection<int> collection)
+        protected static (ICollection<int> Left, ICollection<int> Right) GetHalfParts(ICollection<int> collection)
         {
             var middle = collection.Count / 2;
             

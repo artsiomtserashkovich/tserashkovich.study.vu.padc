@@ -1,7 +1,6 @@
-﻿using System;
-using Tereshkovich.Study.PaDC.ThirdAssigment.Shared;
+﻿using Tereshkovich.Study.PaDC.ThirdAssigment.Shared;
 
-namespace Tereshkovich.Study.PaDC.ThirdAssigment
+namespace Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded
 {
     class Program
     {

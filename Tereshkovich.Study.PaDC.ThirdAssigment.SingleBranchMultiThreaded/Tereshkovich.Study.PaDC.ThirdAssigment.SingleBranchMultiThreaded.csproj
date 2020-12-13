@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Tereshkovich.Study.PaDC.ThirdAssigment.Shared\Tereshkovich.Study.PaDC.ThirdAssigment.Shared.csproj" />
+        <ProjectReference Include="..\Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded\Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded.csproj" />
     </ItemGroup>
 
 </Project>

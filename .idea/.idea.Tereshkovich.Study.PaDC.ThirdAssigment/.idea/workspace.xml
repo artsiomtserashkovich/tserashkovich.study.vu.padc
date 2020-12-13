@@ -11,11 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f8acc9b-3263-42e9-9e3b-0861e13301af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.Shared/BaseMergeSorter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tereshkovich.Study.PaDC.ThirdAssigment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tereshkovich.Study.PaDC.ThirdAssigment/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tereshkovich.Study.PaDC.ThirdAssigment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tereshkovich.Study.PaDC.ThirdAssigment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded/BothBranchMultiThreadedMergeSorter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded/BothBranchMultiThreadedMergeSorter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded/Programm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded/Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.Shared/BaseMergeSorter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.Shared/BaseMergeSorter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/SingleThreadedMergeSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/SingleThreadedMergeSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +39,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/3DC/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/3DC/List.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9C37662-579A-499A-A4DE-B3C85349280D/58/1681e483/ICollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/13B/Thread.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9C37662-579A-499A-A4DE-B3C85349280D/58/1681e483/ICollection`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9C37662-579A-499A-A4DE-B3C85349280D/8d/1bf2cbd7/IList`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -47,15 +54,25 @@
         <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.Shared/FileRandomCollectionFactory.cs" />
         <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.Shared/FileCollectionFactory.cs" />
         <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.Shared/IMergeSorter.cs" />
-        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/Program.cs" />
         <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.Shared/BaseMergeSort.cs" />
-        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/SingleThreadedMergeSort.cs" />
         <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.Shared/BaseMergeSorter.cs" />
         <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded/Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded.csproj" />
         <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded/Class1.cs" />
         <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded/BothBranchMultiThreadedMergeSorter.cs" />
         <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded/Programm.cs" />
         <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.Shared/array.json" />
+        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded/Programm.cs" />
+        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded.csproj" />
+        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/SingleThreadedMergeSort.cs" />
+        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded/Program.cs" />
+        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded.csproj" />
+        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded/Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded.csproj" />
+        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded/Programm.cs" />
+        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded/Program.cs" />
+        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded/Class1.cs" />
+        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded/Program.cs" />
+        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded/BothBranchMultiThreadedMergeSorter.cs" />
+        <option value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded/LeftBranchMultiThreadedMergeSorter.cs" />
       </list>
     </option>
   </component>
@@ -70,9 +87,18 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30016583" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected=".NET Project.Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded">
+  <component name="RunManager" selected=".NET Project.Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded">
+    <configuration name="Publish Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded to folder (1)" type="DotNetFolderPublish" factoryName="Publish to folder" temporary="true">
+      <riderPublish runtime="win-x64" target_folder="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded/bin" target_framework="netcoreapp3.1" uuid_high="-6035967762753696811" uuid_low="-6945723561470668440" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded to folder" type="DotNetFolderPublish" factoryName="Publish to folder" temporary="true">
+      <riderPublish runtime="win-x64" self_contained="true" target_folder="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded/bin" target_framework="netcoreapp3.1" uuid_high="-6035967762753696811" uuid_low="-6945723561470668440" />
+      <method v="2" />
+    </configuration>
     <configuration name="Tereshkovich.Study.PaDC.ThirdAssigment" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -91,6 +117,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -99,7 +143,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded/Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -127,6 +171,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded/Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded" type="DotNetProject" factoryName=".NET Project" temporary="true">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -147,6 +209,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue=".NET Project.Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded" />
+        <item itemvalue="Publish to folder.Publish Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded to folder (1)" />
+        <item itemvalue="Publish to folder.Publish Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded to folder" />
+        <item itemvalue=".NET Project.Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded" />
         <item itemvalue=".NET Project.Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded" />
       </list>
     </recent_temporary>
@@ -161,8 +227,18 @@
       <updated>1607376590381</updated>
       <workItem from="1607376626944" duration="1601000" />
       <workItem from="1607458941366" duration="8249000" />
-      <workItem from="1607518616801" duration="1512000" />
+      <workItem from="1607518616801" duration="5438000" />
+      <workItem from="1607847689859" duration="2520000" />
+      <workItem from="1607851474056" duration="6574000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1607521162833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607521162833</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,99 +260,120 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state width="422" height="436" key="DebuggerActiveHint" timestamp="1607519497330">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="422" height="436" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1607519497330" />
-    <state width="1237" height="445" key="GridCell.Tab.0.bottom" timestamp="1607520003698">
+    <state width="1237" height="439" key="GridCell.Tab.0.bottom" timestamp="1607869557162">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="445" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607520003698" />
-    <state width="1237" height="445" key="GridCell.Tab.0.center" timestamp="1607520003691">
+    <state width="1237" height="439" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607869557162" />
+    <state width="1237" height="439" key="GridCell.Tab.0.center" timestamp="1607869557161">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="445" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607520003691" />
-    <state width="1237" height="445" key="GridCell.Tab.0.left" timestamp="1607520003691">
+    <state width="1237" height="439" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607869557161" />
+    <state width="1237" height="439" key="GridCell.Tab.0.left" timestamp="1607869557161">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="445" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607520003691" />
-    <state width="1237" height="445" key="GridCell.Tab.0.right" timestamp="1607520003695">
+    <state width="1237" height="439" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607869557161" />
+    <state width="1237" height="439" key="GridCell.Tab.0.right" timestamp="1607869557162">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="445" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607520003695" />
-    <state width="1237" height="231" key="GridCell.Tab.1.bottom" timestamp="1607519505691">
+    <state width="1237" height="439" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607869557162" />
+    <state width="1237" height="231" key="GridCell.Tab.1.bottom" timestamp="1607858220284">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607519505691" />
-    <state width="1237" height="231" key="GridCell.Tab.1.center" timestamp="1607519505689">
+    <state width="1237" height="231" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607858220284" />
+    <state width="1237" height="231" key="GridCell.Tab.1.center" timestamp="1607858220284">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1607519505689" />
-    <state width="1237" height="231" key="GridCell.Tab.1.left" timestamp="1607519505689">
+    <state width="1237" height="231" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1607858220284" />
+    <state width="1237" height="231" key="GridCell.Tab.1.left" timestamp="1607858220284">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1607519505689" />
-    <state width="1237" height="231" key="GridCell.Tab.1.right" timestamp="1607519505689">
+    <state width="1237" height="231" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1607858220284" />
+    <state width="1237" height="231" key="GridCell.Tab.1.right" timestamp="1607858220284">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1607519505689" />
-    <state width="1237" height="231" key="GridCell.Tab.2.bottom" timestamp="1607519505691">
+    <state width="1237" height="231" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1607858220284" />
+    <state width="1237" height="231" key="GridCell.Tab.2.bottom" timestamp="1607858220285">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607519505691" />
-    <state width="1237" height="231" key="GridCell.Tab.2.center" timestamp="1607519505691">
+    <state width="1237" height="231" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607858220285" />
+    <state width="1237" height="231" key="GridCell.Tab.2.center" timestamp="1607858220285">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1607519505691" />
-    <state width="1237" height="231" key="GridCell.Tab.2.left" timestamp="1607519505691">
+    <state width="1237" height="231" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1607858220285" />
+    <state width="1237" height="231" key="GridCell.Tab.2.left" timestamp="1607858220285">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1607519505691" />
-    <state width="1237" height="231" key="GridCell.Tab.2.right" timestamp="1607519505691">
+    <state width="1237" height="231" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1607858220285" />
+    <state width="1237" height="231" key="GridCell.Tab.2.right" timestamp="1607858220285">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1607519505691" />
-    <state width="1237" height="231" key="GridCell.Tab.3.bottom" timestamp="1607519505692">
+    <state width="1237" height="231" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1607858220285" />
+    <state width="1237" height="231" key="GridCell.Tab.3.bottom" timestamp="1607858220286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607519505692" />
-    <state width="1237" height="231" key="GridCell.Tab.3.center" timestamp="1607519505691">
+    <state width="1237" height="231" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607858220286" />
+    <state width="1237" height="231" key="GridCell.Tab.3.center" timestamp="1607858220286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1607519505691" />
-    <state width="1237" height="231" key="GridCell.Tab.3.left" timestamp="1607519505691">
+    <state width="1237" height="231" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1607858220286" />
+    <state width="1237" height="231" key="GridCell.Tab.3.left" timestamp="1607858220286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1607519505691" />
-    <state width="1237" height="231" key="GridCell.Tab.3.right" timestamp="1607519505691">
+    <state width="1237" height="231" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1607858220286" />
+    <state width="1237" height="231" key="GridCell.Tab.3.right" timestamp="1607858220286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1607519505691" />
-    <state width="1237" height="231" key="GridCell.Tab.4.bottom" timestamp="1607519505692">
+    <state width="1237" height="231" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1607858220286" />
+    <state width="1237" height="231" key="GridCell.Tab.4.bottom" timestamp="1607858220286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.4.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607519505692" />
-    <state width="1237" height="231" key="GridCell.Tab.4.center" timestamp="1607519505692">
+    <state width="1237" height="231" key="GridCell.Tab.4.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607858220286" />
+    <state width="1237" height="231" key="GridCell.Tab.4.center" timestamp="1607858220286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.4.center/0.0.1280.680@0.0.1280.680" timestamp="1607519505692" />
-    <state width="1237" height="231" key="GridCell.Tab.4.left" timestamp="1607519505692">
+    <state width="1237" height="231" key="GridCell.Tab.4.center/0.0.1280.680@0.0.1280.680" timestamp="1607858220286" />
+    <state width="1237" height="231" key="GridCell.Tab.4.left" timestamp="1607858220286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.4.left/0.0.1280.680@0.0.1280.680" timestamp="1607519505692" />
-    <state width="1237" height="231" key="GridCell.Tab.4.right" timestamp="1607519505692">
+    <state width="1237" height="231" key="GridCell.Tab.4.left/0.0.1280.680@0.0.1280.680" timestamp="1607858220286" />
+    <state width="1237" height="231" key="GridCell.Tab.4.right" timestamp="1607858220286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.4.right/0.0.1280.680@0.0.1280.680" timestamp="1607519505692" />
-    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size" timestamp="1607496612485">
+    <state width="1237" height="231" key="GridCell.Tab.4.right/0.0.1280.680@0.0.1280.680" timestamp="1607858220286" />
+    <state x="395" y="145" key="Rider.ProjectTemplateDialog.Size" timestamp="1607849665563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1607496612485" />
+    <state x="395" y="145" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1607849665563" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1607459661952">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607459661952" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded/Program.cs</url>
+          <line>28</line>
+          <properties documentPath="B:\homeproject\study\PaDC\Tereshkovich.Study.PaDC.ThirdAssigment\Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded\Program.cs" initialLine="28">
+            <startOffsets>
+              <option value="975" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1012" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

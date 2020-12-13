@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using Tereshkovich.Study.PaDC.ThirdAssigment.Shared;
 
-namespace Tereshkovich.Study.PaDC.ThirdAssigment
+namespace Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded
 {
     public class SingleThreadedMergeSort : BaseMergeSorter
     {
@@ -13,7 +12,7 @@ namespace Tereshkovich.Study.PaDC.ThirdAssigment
                 return collection;
             }
 
-            var (left, right) = GetParts(collection);
+            var (left, right) = GetHalfParts(collection);
             
             left = Sort(left);
             right = Sort(right);

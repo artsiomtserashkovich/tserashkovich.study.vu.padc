@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Linq;
+using System.Threading.Tasks;
 using Tereshkovich.Study.PaDC.ThirdAssigment.Shared;
+using Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded;
 
-namespace Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded
+namespace Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded
 {
     class Program
     {
@@ -17,7 +19,7 @@ namespace Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded
 
             for (var threadCount = 1; threadCount <= 8; threadCount++)
             {
-                //Console.WriteLine($"Start multithread with count: {threadCount}");
+                Console.WriteLine($"Start multithread with count: {threadCount}");
 
                 var sorter = new BothBranchMultiThreadedMergeSorter(threadCount);
 
@@ -29,7 +31,9 @@ namespace Tereshkovich.Study.PaDC.ThirdAssigment.MultiThreaded
                 sw.Stop();
                 Console.WriteLine("Elapsed={0}",sw.Elapsed);
 
-                //Console.WriteLine($"Is result the same with single: {result.SequenceEqual(singleThreadResult)}");
+                Console.WriteLine($"Is result the same with single: {result.SequenceEqual(singleThreadResult)}");
+
+                Task.Delay(500).Wait();
             }
             
             
