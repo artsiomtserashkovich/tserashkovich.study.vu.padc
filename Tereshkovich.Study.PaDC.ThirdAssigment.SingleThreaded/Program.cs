@@ -1,4 +1,6 @@
-﻿using Tereshkovich.Study.PaDC.ThirdAssigment.Shared;
+﻿using System;
+using System.Diagnostics;
+using Tereshkovich.Study.PaDC.ThirdAssigment.Shared;
 
 namespace Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded
 {
@@ -11,7 +13,14 @@ namespace Tereshkovich.Study.PaDC.ThirdAssigment.SingleThreaded
             
             var collection = factory.GetRandomCollection();
             
+            
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+
             var result = sorter.Sort(collection);
+            
+            sw.Stop();
+            Console.WriteLine("Elapsed={0}",sw.Elapsed);
         }
     }
 }
