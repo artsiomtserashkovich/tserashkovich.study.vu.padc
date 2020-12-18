@@ -13,7 +13,7 @@ namespace Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded
         {
             var factory = new FileCollectionFactory();
             var singleThreadSorter = new SingleThreadedMergeSort();
-            var collection = factory.GetRandomCollection();
+            var collection = factory.GetRandomCollection().ToArray();
 
             var singleThreadResult = singleThreadSorter.Sort(collection);
 

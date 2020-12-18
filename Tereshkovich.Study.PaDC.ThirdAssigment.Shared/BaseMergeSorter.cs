@@ -1,53 +1,65 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Tereshkovich.Study.PaDC.ThirdAssigment.Shared
 {
     public abstract class BaseMergeSorter : IMergeSorter
     {
-        public abstract ICollection<int> Sort(ICollection<int> collection);
+        public abstract int[] Sort(int[] collection);
         
-        protected static (ICollection<int> Left, ICollection<int> Right) GetHalfParts(ICollection<int> collection)
+        protected static (int[] Left, int[] Right) GetHalfParts(int[] collection)
         {
-            var middle = collection.Count / 2;
+            var middle = collection.Length / 2;
             
-            ICollection<int> left = collection.Take(middle).ToList();
-            ICollection<int> right = collection.Skip(middle).ToList();
+            var left = collection.Take(middle).ToArray();
+            var right = collection.Skip(middle).ToArray();
             
             return (left, right);
         }
         
-        protected static ICollection<int> MergeParts(ICollection<int> left, ICollection<int> right)
+        protected static int[] MergeParts(int[] left, int[] right)
         {
-            var result = new List<int>();
-
-            while(left.Count > 0 || right.Count>0)
+            int resultLength = right.Length + left.Length;
+            int[] result = new int[resultLength];
+            
+            int indexLeft = 0, indexRight = 0, indexResult = 0;
+            while (indexLeft < left.Length || indexRight < right.Length)
             {
-                if (left.Count > 0 && right.Count > 0)
-                {
-                    if (left.First() <= right.First())
+                //if both arrays have elements  
+                if (indexLeft < left.Length && indexRight < right.Length)  
+                {  
+                    //If item on left array is less than item on right array, add that item to the result array 
+                    if (left[indexLeft] <= right[indexRight])
                     {
-                        result.Add(left.First());
-                        left.Remove(left.First());
+                        result[indexResult] = left[indexLeft];
+                        indexLeft++;
+                        indexResult++;
                     }
+                    // else the item in the right array wll be added to the results array
                     else
                     {
-                        result.Add(right.First());
-                        right.Remove(right.First());
+                        result[indexResult] = right[indexRight];
+                        indexRight++;
+                        indexResult++;
                     }
                 }
-                else if(left.Count > 0)
+                //if only the left array still has elements, add all its items to the results array
+                else if (indexLeft < left.Length)
                 {
-                    result.Add(left.First());
-                    left.Remove(left.First());
+                    result[indexResult] = left[indexLeft];
+                    indexLeft++;
+                    indexResult++;
                 }
-                else if (right.Count > 0)
+                //if only the right array still has elements, add all its items to the results array
+                else if (indexRight < right.Length)
                 {
-                    result.Add(right.First());
-
-                    right.Remove(right.First());    
-                }    
+                    result[indexResult] = right[indexRight];
+                    indexRight++;
+                    indexResult++;
+                }  
             }
+            
             return result;
         }
     }

@@ -20,9 +20,9 @@ namespace Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded
             _threadCount = threadCount;
         }
         
-        public override ICollection<int> Sort(ICollection<int> collection)
+        public override int[] Sort(int[] collection)
         {
-            if (collection.Count <= 1)
+            if (collection.Length <= 1)
             {
                 return collection;
             }
@@ -64,7 +64,7 @@ namespace Tereshkovich.Study.PaDC.ThirdAssigment.BothBranchesMultiThreaded
             return new BothBranchMultiThreadedMergeSorter(rightThreadsCount + 1);
         }
 
-        private static (ICollection<int>, ICollection<int>) HandleSingleThread(ICollection<int> left, ICollection<int> right)
+        private static (int[], int[]) HandleSingleThread(int[] left, int[] right)
         {
             var singleThreadSorter = new SingleThreadedMergeSort();
 

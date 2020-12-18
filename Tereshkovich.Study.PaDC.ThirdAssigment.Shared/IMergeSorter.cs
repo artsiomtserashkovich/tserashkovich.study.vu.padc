@@ -4,6 +4,6 @@ namespace Tereshkovich.Study.PaDC.ThirdAssigment.Shared
 {
     public interface IMergeSorter
     {
-        ICollection<int> Sort(ICollection<int> collection);
+        int[] Sort(int[] collection);
     }
 }

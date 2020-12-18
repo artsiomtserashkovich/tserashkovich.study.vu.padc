@@ -20,9 +20,9 @@ namespace Tereshkovich.Study.PaDC.ThirdAssigment.SingleBranchMultiThreaded
             _threadCount = threadCount;
         }
         
-        public override ICollection<int> Sort(ICollection<int> collection)
+        public override int[] Sort(int[] collection)
         {
-            if (collection.Count <= 1)
+            if (collection.Length <= 1)
             {
                 return collection;
             }
